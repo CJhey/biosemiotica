@@ -1,9 +1,9 @@
 main:
   - title: "Noticias"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Membrecía"
+    url: /miembros/
+  - title: "Enlaces"
+    url: /links/
   - title: "Sobre el Círculo"
     url: /about/
