@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "CHB"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Sitio web del Círculo Hispano de Semiótica"
+  bio    : "Sitio web del Círculo Hispano de Biosemiótica"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
