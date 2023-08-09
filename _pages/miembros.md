@@ -3,4 +3,7 @@ permalink: /miembros/
 title: "Membrecía"
 ---
 
-La información estará disponible próximamente.
+## Información sobre membrecía
+Para entrar en contacto y seguir nuestra lista de correos, por favor escríbenos.
+
+## Miembros actuales
