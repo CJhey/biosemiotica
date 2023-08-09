@@ -5,5 +5,7 @@ main:
     url: /miembros/
   - title: "Enlaces"
     url: /links/
+  - title: "Bibliografía"
+    url: /bibliografia/
   - title: "Sobre el Círculo"
     url: /about/
