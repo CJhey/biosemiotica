@@ -3,9 +3,9 @@ main:
     url: /posts/
   - title: "Membrecía"
     url: /miembros/
-  - title: "Enlaces"
-    url: /links/
   - title: "Bibliografía"
     url: /bibliografia/
+  - title: "Enlaces"
+    url: /links/
   - title: "Sobre el Círculo"
     url: /about/
