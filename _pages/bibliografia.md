@@ -3,6 +3,8 @@ permalink: /bibliografia/
 title: "Recursos bibliográficos"
 ---
 
-# Publicaciones
+## Publicaciones
 
-# Videos
+## Videos
+
+## Otros
