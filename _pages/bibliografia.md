@@ -5,6 +5,38 @@ title: "Recursos bibliográficos"
 
 ## Publicaciones
 
+Arrizabalaga, María Inés (Ed.) 2013. Semiótica de la cultura/Ecosemiótica/Biorretórica (Traducido por Silvia N. Barei, Ana Inés Ieunda y Ariel Gómez Ponce). Córdoba: Facultad de Lenguas, Universidad Nacional de Córdoba.
+https://rdu.unc.edu.ar/handle/11086/2863
+
+Castro, Òscar 2011. La biosemiótica y la biología cognitiva en organismos sin sistema nervioso. Ludus Vitalis XIX(36): 47-84.
+https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints
+
+Barei, Silvia N. 2016. Semiosferas: de la semiótica de la cultura a la biosemiótica, articulaciones. Intexto 37: 118-131.
+https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints
+
+Rodríguez Higuera, Claudio Julio 2017. Integración jerárquica de la biosemiótica hacia la significación cultural. Revista Chilena de Semiótica 6: 127-139.
+https://www.researchgate.net/publication/353715980_Integracion_jerarquica_de_la_biosemiotica_hacia_la_significacion_cultural
+
+Vidales González, Carlos 2019. Definiendo a la comunicación desde la cibersemiótica. Revista iberoamericana de comunicación 36: 81-117.
+https://www.researchgate.net/publication/332159218_Definiendo_a_la_comunicacion_desde_la_cibersemiotica
+
+Maldonado, Carlos Eduardo 2020. La biosemiótica como una de las ciencias de la complejidad. Revista Ciencias de la Complejidad 1(1): 23-36.
+https://www.researchgate.net/publication/347439078_La_Biosemiotica_como_una_de_las_Ciencias_de_la_Complejidad
+
+Romero, Javier 2020. Biosemiótica: Hacia una teoría general de los signos de la naturaleza humana y no humana. Signa: Revista de la Asociación Española de Semiótica 29: 787.
+https://www.researchgate.net/profile/Claudio-Rodriguez-Higuera
+
+Stubrin, Lucía 2021. El sentido de lo vivo: entre la inspiración biológica y los nuevos modos de ser. Ciencia, Docencia y Tecnología 32(63): 01-20.
+https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints
+
+Bacarlett Pérez, María Luisa 2021. Un paseo por el Umwelt y la performatividad. Acercamientos a partir de la obra de Jakob von Uexküll y la biosemiótica. Revista colombiana de la filosofía de la ciencia 21(43): 333-370.
+https://www.researchgate.net/publication/355947418_paseo_por_el_Umwelt_y_la_Performatividad_Acercamientos_A_Partir_de_la_Obra_de_Jacob_von_Uexkull_y_la_Biosemiotica	
+
+Rodríguez Gómez, Sergio 2021. Organización, experiencia y adaptación. Tres conexiones biosemióticas entre el pensamiento de von Uexküll y la biología enactiva de Maturana y Varela. Revista colombiana de la filosofía de la ciencia 21(43): 207-230.
+https://www.researchgate.net/publication/355948942_Organizacion_experiencia_y_adaptacion_Tres_conexiones_biosemioticas_entre_el_pensamiento_de_von_Uexkull_y_la_biologia_enactiva_de_Maturana_y_Varela
+
 ## Videos
+
+Nicola Zengiaro 2023. <a href="https://www.facebook.com/watch/live/?ref=watch_permalink&v=1899049223797488">Biosemiótica: Una semiótica vital</a>
 
 ## Otros
