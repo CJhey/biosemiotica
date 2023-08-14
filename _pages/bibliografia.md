@@ -26,9 +26,13 @@ Rodríguez Gómez, Sergio 2021. Organización, experiencia y adaptación. Tres c
 
 ## Videos
 
+Ciclo de conversatorios IASS AIS 2020. <a href="https://www.youtube.com/watch?v=Kaq8pkqvadM">Biosemiótica y culturalismo</a>.
+
 Carlos Maldonado 2022. <a href="https://www.youtube.com/watch?v=aM0LL_P_aqs">La biosemiótica</a>
 
 Nicola Zengiaro 2023. <a href="https://www.facebook.com/watch/live/?ref=watch_permalink&v=1899049223797488">Biosemiótica: Una semiótica vital</a>
+
+Discusión con Juan Alberto Bastard Rico 2023. <a href="https://www.youtube.com/watch?v=9x1fLIJ1Wpk">Pildoras filosóficas: De Uexküll a la biosemiótica. Descubrir otros mundos no humanos.</a>
 
 
 ## Otros
