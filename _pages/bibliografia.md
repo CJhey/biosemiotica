@@ -7,7 +7,7 @@ title: "Recursos bibliográficos"
 
 Arrizabalaga, María Inés (Ed.) 2013. <i>Semiótica de la cultura/Ecosemiótica/Biorretórica</i> (Traducido por Silvia N. Barei, Ana Inés Ieunda y Ariel Gómez Ponce). Córdoba: Facultad de Lenguas, Universidad Nacional de Córdoba. <a href="https://rdu.unc.edu.ar/handle/11086/2863">url</a>
 
-Castro, Òscar 2011. La biosemiótica y la biología cognitiva en organismos sin sistema nervioso. <i>Ludus Vitalis</i> XIX(36): 47-84. <a href="https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints">url</a>
+Castro, Òscar 2011. La biosemiótica y la biología cognitiva en organismos sin sistema nervioso. <i>Ludus Vitalis</i> XIX(36): 47-84. <a href="https://www.researchgate.net/publication/230622013_La_biosemiotica_y_la_biologia_cognitiva_en_organismos_sin_sistema_nervioso">url</a>
 
 Barei, Silvia N. 2016. Semiosferas: de la semiótica de la cultura a la biosemiótica, articulaciones. <i>Intexto</i> 37: 118-131. <a href="https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints">url</a>
 
