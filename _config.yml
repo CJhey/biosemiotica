@@ -23,6 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: air
 search: true
+future: true
 
 # Build settings
 markdown: kramdown
