@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "CHB"
+  name   : "CHdB"
   avatar : "/assets/images/logo.png"
   bio    : "Sitio web del Círculo Hispano de Biosemiótica"
   links:
