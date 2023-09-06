@@ -17,6 +17,8 @@ Vidales González, Carlos 2019. Definiendo a la comunicación desde la cibersemi
 
 Maldonado, Carlos Eduardo 2020. La biosemiótica como una de las ciencias de la complejidad. <i>Revista Ciencias de la Complejidad</i> 1(1): 23-36. <a href="https://www.researchgate.net/publication/347439078_La_Biosemiotica_como_una_de_las_Ciencias_de_la_Complejidad">url</a>
 
+Musso, Carlos G. 2020. Medicina biosemiótica: de una medicina de efectos a una medicina de procesos. <i>Arch Argent Pediatr</i> 118(5):e449-e453.<a href="https://www.sap.org.ar/docs/publicaciones/archivosarg/2020/v118n5a13.pdf">url</a>
+
 Romero, Javier 2020. Biosemiótica: Hacia una teoría general de los signos de la naturaleza humana y no humana. <i>Signa: Revista de la Asociación Española de Semiótica</i> 29: 787. <a href="https://revistas.uned.es/index.php/signa/article/view/23408">url</a>
 
 Stubrin, Lucía 2021. El sentido de lo vivo: entre la inspiración biológica y los nuevos modos de ser. <i>Ciencia, Docencia y Tecnología</i> 32(63): 01-20. <a href="https://www.researchgate.net/publication/311866619_Semiosferas_de_la_Semiotica_de_la_Cultura_a_la_Biosemiotica_articulaciones_Semiosphers_from_the_Semiotics_of_Culture_to_the_Biosemiotics_joints">url</a>
