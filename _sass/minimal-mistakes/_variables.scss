@@ -2,6 +2,7 @@
    Variables
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 /*
    Typography
@@ -13,6 +14,8 @@ $doc-font-size: 16 !default;
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
+
+/* Typography */
 
 /* System typefaces */
 $serif: Georgia, Times, serif !default;
@@ -29,6 +32,12 @@ $times: Times, serif !default;
 $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
+
+/* New font-family variable for Rajdhani */
+$rajdhani: 'Rajdhani', sans-serif !default;
+
+/* Rest of your typography variables */
+
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
