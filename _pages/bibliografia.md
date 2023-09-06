@@ -25,6 +25,8 @@ Bacarlett Pérez, María Luisa 2021. Un paseo por el Umwelt y la performatividad
 
 Rodríguez Gómez, Sergio 2021. Organización, experiencia y adaptación. Tres conexiones biosemióticas entre el pensamiento de von Uexküll y la biología enactiva de Maturana y Varela. <i>Revista colombiana de la filosofía de la ciencia</i> 21(43): 207-230. <a href="https://www.researchgate.net/publication/355948942_Organizacion_experiencia_y_adaptacion_Tres_conexiones_biosemioticas_entre_el_pensamiento_de_von_Uexkull_y_la_biologia_enactiva_de_Maturana_y_Varela">url</a>
 
+Maldonado Castañeda, Carlos Eduardo 2022. Biosemiótica y complejidad. Bogotá: Universidad El Bosque. <a href="https://libreriasiglo.com/home/146852-biosemiotica-y-complejidad.html">url</a>
+
 ## Videos
 
 Carlos Maldonado 2022. <a href="https://www.youtube.com/watch?v=aM0LL_P_aqs">La biosemiótica</a>
