@@ -1,0 +1,106 @@
+
+<div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <div class="directory">
+    <div id="directory-content"></div>
+  </div>
+  <script>
+
+    const url = 'https://docs.google.com/spreadsheets/d/1vlYLhiw56spojXXedkQXsQYK7R23kJnLO3SynwSsevI/export?format=csv&gid=0';
+    const columns = ['Nombre','Perfil','Email'];
+
+    async function setup() {
+      noCanvas();
+      const data = await loadCSV(url);
+      
+      createDirectoryBlock(data);
+    }
+
+    async function loadCSV(path) {
+      let data = (await d3.csv(path)).map(d => ({...d, "Perfil": d["Afiliación"] + (d["Intereses"] === "" ? "" : " Intereses: " + d["Intereses"]) }))
+      console.log(data);
+      const columns = data.columns
+      data = data.filter(d => d['Autorización'] === 'X');
+      data = data.sort((a, b) => d3.ascending(a['Nombre'], b['Nombre']));
+      data.columns = columns
+      return data
+    }
+
+    async function createDirectoryBlock(data) {
+      selectAll(".block").map(d=>d.remove());
+      const block = createDiv().class('block').parent('directory-content');
+      
+      const directoryTable = createElement('table').class('directory-table').parent(block);
+      createHeader(directoryTable);
+      
+      for (let d of data) {
+        createRow(d, directoryTable);
+      }
+    }
+
+    function createHeader(parent) {
+      const header = createElement('tr').class('directory-header').parent(parent);
+      for (let c of columns) {
+        createElement('th',c).parent(header);
+      }
+    }
+
+    function createRow(data, parent) {
+      const row = createElement('tr').class('directory-row').parent(parent);
+      for (let i = 0; i < columns.length; i++) {
+        const td = createElement('td','').parent(row);
+        let par = td;
+        if (data['Más Información'] && i===0) {
+          const a = createA(data['Más Información'], '', '_blank').parent(td);
+          par = a;
+        }
+        const str = clean(data[columns[i]]);
+        createSpan(str).parent(par);
+      }
+    }
+
+    function clean(str) {
+      return str.replace(/[*+?^${}|<>[\]\\]|script|timeout|interval|onload|eval|=>|function/gi, '');
+    }
+  </script>
+</div>
+
+<style>
+  .directory {
+    max-width: 1000px;
+    font-family: 'Fira Sans', sans-serif
+  }
+
+  .directory-table  {
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+
+  .directory-table th  {
+    border-bottom: 3px solid black;
+    padding: 1em;
+  }
+  
+  .directory-table td {
+    padding: 1em;
+  }
+
+  .directory-table td a {
+    color: inherit;
+  }
+
+  .directory-table td a:hover {
+    color: rgb(214, 200, 4);
+  }
+
+  .directory-table td a:active {
+    color: rgb(214, 161, 4);
+  }
+
+  .directory-table tr {
+    border-bottom: solid 1px black;
+  }
+  
+
+</style>
