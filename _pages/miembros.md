@@ -1,6 +1,7 @@
 ---
 permalink: /miembros/
 title: "Membrecía"
+classes: wide
 ---
 
 ## Información sobre membrecía
