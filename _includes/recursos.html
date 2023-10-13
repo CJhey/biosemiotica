@@ -34,12 +34,14 @@
       selectAll("."+className).map(d=>d.remove());
       const block = createDiv().class(className).parent(container);
 
+      createElement("h2", title).id(title).parent(block);
+
       const filter = createDiv().class("list-filter").parent(block);
 
       const orderDescending = (data, key) => [...data].sort((a, b) => d3.descending(a[key], b[key]));
       const orderAscending = (data, key) => [...data].sort((a, b) => d3.ascending(a[key], b[key]));
 
-      const orderedData = order === "Autor" ? orderAscending(data, order) : order === "Año" ? orderDescending(data, order) : orderAscending(data, order);
+      const orderedData = order === "Autor" ? orderAscending(data, "Autor") : order === "Año" ? orderDescending(data, order) : orderAscending(data, order);
       console.log(orderedData, order);
 
       createSpan("Ordenar por: ").parent(filter);
@@ -51,10 +53,9 @@
       selector.option("Año");
       selector.selected(order)
     
-      createElement("h2", title).id(title).parent(block);
       for (let d of orderedData) {
-        const p = createElement("p").parent(block);
-        createA(d.Url,"—" + d.Referencia, '_blank').parent(p);
+        const p = createElement("p", "—" + d.Referencia + " ").parent(block);
+        createA(d.Url,"url",'_blank').parent(p);
       }
     }
   </script>
@@ -68,7 +69,7 @@
   }
 
   a:hover {
-    color: rgb(231, 216, 6);
+    color: rgb(231, 212, 6);
   }
 
   a:active {
