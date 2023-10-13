@@ -1,0 +1,69 @@
+
+<div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <div class="directory">
+    <div id="directory-content"></div>
+  </div>
+  <script>
+    const urlBiblio = 'https://docs.google.com/spreadsheets/d/1BU_HRtf8NLB4H3zFIbdZugtvkhj9IfzDeb39N-VRx7I/export?format=csv&gid=0';
+    const urlVideo = 'https://docs.google.com/spreadsheets/d/1BU_HRtf8NLB4H3zFIbdZugtvkhj9IfzDeb39N-VRx7I/export?format=csv&gid=321788313';
+
+    async function setup() {
+      noCanvas();
+      const biblioData = await loadCSV(urlBiblio);
+      const videoData = await loadCSV(urlVideo);
+
+      const biblioBlock = createDiv().class('list-block').parent('directory-content');
+      const videoBlock = createDiv().class('list-block').parent('directory-content');
+
+      createBlock(biblioData, "Publicaciones", biblioBlock);
+      createBlock(videoData, "Videos", videoBlock);
+    }
+
+    async function loadCSV(path) {
+      let data = await d3.csv(path)
+      const columns = data.columns;
+      // data = data.sort((a, b) => d3.ascending(a['Referencia'], b['Referencia']));
+      data.columns = columns;
+      return data
+    }
+
+    async function createBlock(data, title, container, order = "Autor") {
+      const className = "sub-block-"+title.toLowerCase();
+      selectAll("."+className).map(d=>d.remove());
+      const block = createDiv().class(className).parent(container);
+
+      const filter = createDiv().class("list-filter").parent(block);
+
+      const orderDescending = (data, key) => [...data].sort((a, b) => d3.descending(a[key], b[key]));
+      const orderAscending = (data, key) => [...data].sort((a, b) => d3.ascending(a[key], b[key]));
+
+      const orderedData = order === "Autor" ? orderAscending(data, order) : order === "Año" ? orderDescending(data, order) : orderAscending(data, order);
+      console.log(orderedData, order);
+
+      createSpan("Ordenar por: ").parent(filter);
+      const selector = createSelect().parent(filter).changed((e) => {
+        console.log(e.target.value);
+        createBlock(data, title, container, e.target.value);
+      })
+      selector.option("Autor");
+      selector.option("Año");
+      selector.selected(order)
+    
+      createElement("h2", title).id(title).parent(block);
+      for (let d of orderedData) {
+        const p = createElement("p").parent(block);
+        createA(d.Url,"—" + d.Referencia, '_blank').parent(p);
+      }
+    }
+  </script>
+</div>
+
+<style>
+  .list-block {
+    font-family: 'Fira Sans', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 0.5em;
+  }
+</style>

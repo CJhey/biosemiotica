@@ -1,9 +1,12 @@
 ---
 permalink: /bibliografia/
 title: "Recursos bibliográficos"
+classes: wide
 ---
 
 ## Publicaciones
+
+{ % include recursos.html % }
 
 Arrizabalaga, María Inés (Ed.) 2013. <i>Semiótica de la cultura/Ecosemiótica/Biorretórica</i> (Traducido por Silvia N. Barei, Ana Inés Ieunda y Ariel Gómez Ponce). Córdoba: Facultad de Lenguas, Universidad Nacional de Córdoba. <a href="https://rdu.unc.edu.ar/handle/11086/2863">url</a>
 
