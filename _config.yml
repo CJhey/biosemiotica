@@ -63,6 +63,7 @@ author:
   name   : "CdB"
   avatar : "/assets/images/logo.png"
   bio    : "Sitio web del Círculo de Biosemiótica"
+  home  : "http://www.biosemiotica.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
