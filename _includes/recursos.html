@@ -29,7 +29,7 @@
       return data
     }
 
-    async function createBlock(data, title, container, order = "Autor") {
+    async function createBlock(data, title, container, order = "Año") {
       const className = "sub-block-"+title.toLowerCase();
       selectAll("."+className).map(d=>d.remove());
       const block = createDiv().class(className).parent(container);
